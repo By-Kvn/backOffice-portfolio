@@ -1,14 +1,13 @@
 
 /* Custom Pink version */
 
-/*
-// Override default variables
+
+/* Override default variables
 $primary-500: #e91e63;
 $primary-600: #d81b60;
 $primary-700: #c2185b;
-*/
-
-// Import Pico
+    */
+/* Import Pico*/
 @import "@picocss/pico/scss/pico";
 
 form{
@@ -41,10 +40,39 @@ hgroup{
     margin-top: 10%;
 }
 h1{
+    text-align: center;
     width: 100%;
 }
 
+hgroup{
+    text-align: center;
+}
 
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    text-align: center;
+}
+
+.home-links{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.home-links a{
+    margin-right: 3%;
+}
+
+
+
+@media screen  and (max-width:990px) {
+    img{
+        display: none;
+    }
+}
+
+/*
 #kl-front-logo{
     position: absolute;
     width: 30%;
@@ -56,10 +84,4 @@ h1{
 span{
     margin-top: 300%;
 }
-
-@media screen  and (max-width:990px) {
-    img{
-        display: none;
-    }
-}
-
+*/

@@ -1,3 +1,6 @@
+<?php
+    require_once ("link.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,16 +13,18 @@
 </head>
 <body>
     <main class="container">
-        <h1>Back Office Kevin</h1>
+        <h1>🛠 Back Office Kevin 👨🏽‍💻</h1>
         <article class="grid">
         <div>
             <hgroup>
-                <h2>Bonjour Admin</h2>
-                <h3>L'accueil est en cours de conception</h3>
+                <h2>Modifier ✍🏾</h2>
+                <h4>Modifier les éléments que vous souhaitez</h4>
             </hgroup>
-    </article>
+        </div>        
+        </article>
+        <a href="accueil.html" role="button" class="secondary">Retour</a>
     <footer>
-       <!-- <a target="_blank" href="https://kevinlabatte.fr/"><img id="kl-front-logo" src="img/KL FRONT PNG.png" alt="Logo de Kl.front un K et un L" srcset=""></a>
+    <!-- <a target="_blank" href="https://kevinlabatte.fr/"><img id="kl-front-logo" src="img/KL FRONT PNG.png" alt="Logo de Kl.front un K et un L" srcset=""></a>
         <span>Coded by Kl.front</span>-->
     </footer>
     </main>

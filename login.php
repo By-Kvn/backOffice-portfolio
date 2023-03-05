@@ -10,7 +10,7 @@
             $_SESSION['loggedin'] = true;
             $_SESSION['username'] = $username;
             // Rediriger vers la page d'accueil
-            header('Location:accueil.php');
+            header('Location:accueil.html');
             exit;
         } else {
             echo '<h2>Nom d\'utilisateur ou mot de passe incorrect. Vous n\'êtes pas l\'admin</h2>';
